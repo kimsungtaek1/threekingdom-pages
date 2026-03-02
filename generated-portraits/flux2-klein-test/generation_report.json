@@ -1,0 +1,28 @@
+{
+  "model_id": "black-forest-labs/FLUX.2-klein-4B",
+  "prompt_file": "/Volumes/Storage/StudioProjects/threekingdom/docs/officer-appearance-prompts/officer_prompts_batch_01.md",
+  "generated_at_utc": "2026-02-26T20:50:36.740430+00:00",
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "cache_dir": "/Volumes/Storage/AIModels/huggingface",
+  "settings": {
+    "width": 256,
+    "height": 256,
+    "steps": 1,
+    "guidance": 3.5,
+    "max_sequence_length": 128,
+    "base_seed": 424242
+  },
+  "outputs": [
+    {
+      "slug": "cao_cao",
+      "name": "조조",
+      "seed": 424242,
+      "output": "/Volumes/Storage/StudioProjects/threekingdom/docs/generated-portraits/flux2-klein-test/cao_cao.png",
+      "width": 256,
+      "height": 256,
+      "steps": 1,
+      "guidance": 3.5
+    }
+  ]
+}

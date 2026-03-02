@@ -1,0 +1,187 @@
+# 삼국지 장수 다운로드 배치 처리 결과
+
+- 원본 이미지: 35장
+- 분할 타일: 280개
+- 저장 성공: 148개
+- OCR 실패: 51개
+- 이름 저신뢰(매칭<0.70): 81개
+- 이름 매핑 없음: 0개
+- 중복 이름(여러 id 후보): 0개
+
+## OCR 실패
+- Gemini_Generated_Image_4y6v144y6v144y6v.png#1,3
+- Gemini_Generated_Image_53gj5v53gj5v53gj.png#1,0
+- Gemini_Generated_Image_6gl2bu6gl2bu6gl2.png#0,1
+- Gemini_Generated_Image_6gl2bu6gl2bu6gl2.png#0,3
+- Gemini_Generated_Image_6gl2bu6gl2bu6gl2.png#1,0
+- Gemini_Generated_Image_6gl2bu6gl2bu6gl2.png#1,3
+- Gemini_Generated_Image_8wt9tk8wt9tk8wt9.png#0,3
+- Gemini_Generated_Image_bh5851bh5851bh58.png#0,0
+- Gemini_Generated_Image_boldbzboldbzbold.png#1,0
+- Gemini_Generated_Image_boldbzboldbzbold.png#1,3
+- Gemini_Generated_Image_do2smrdo2smrdo2s.png#0,2
+- Gemini_Generated_Image_do2smrdo2smrdo2s.png#0,3
+- Gemini_Generated_Image_do2smrdo2smrdo2s.png#1,2
+- Gemini_Generated_Image_eq7jpseq7jpseq7j.png#1,0
+- Gemini_Generated_Image_iiiyvkiiiyvkiiiy.png#1,0
+- Gemini_Generated_Image_k5f6jik5f6jik5f6.png#0,2
+- Gemini_Generated_Image_k5f6jik5f6jik5f6.png#1,2
+- Gemini_Generated_Image_ktzfowktzfowktzf.png#1,0
+- Gemini_Generated_Image_lneofglneofglneo.png#1,2
+- Gemini_Generated_Image_lzujbplzujbplzuj.png#1,3
+- Gemini_Generated_Image_nmtnejnmtnejnmtn.png#0,1
+- Gemini_Generated_Image_nmtnejnmtnejnmtn.png#0,2
+- Gemini_Generated_Image_nmtnejnmtnejnmtn.png#0,3
+- Gemini_Generated_Image_nmtnejnmtnejnmtn.png#1,0
+- Gemini_Generated_Image_ommiz1ommiz1ommi.png#0,0
+- Gemini_Generated_Image_ommiz1ommiz1ommi.png#1,0
+- Gemini_Generated_Image_ommiz1ommiz1ommi.png#1,3
+- Gemini_Generated_Image_pr4dflpr4dflpr4d.png#1,0
+- Gemini_Generated_Image_pr4dflpr4dflpr4d.png#1,2
+- Gemini_Generated_Image_q0n46wq0n46wq0n4.png#0,0
+- Gemini_Generated_Image_qfhdo8qfhdo8qfhd.png#1,3
+- Gemini_Generated_Image_rl262srl262srl26.png#0,0
+- Gemini_Generated_Image_v1t3dyv1t3dyv1t3.png#0,1
+- Gemini_Generated_Image_v1t3dyv1t3dyv1t3.png#0,2
+- Gemini_Generated_Image_vf0y4jvf0y4jvf0y.png#1,0
+- Gemini_Generated_Image_vzjyksvzjyksvzjy.png#0,2
+- Gemini_Generated_Image_vzjyksvzjyksvzjy.png#1,3
+- Gemini_Generated_Image_w02md6w02md6w02m.png#1,1
+- Gemini_Generated_Image_x71cgex71cgex71c (1).png#0,0
+- Gemini_Generated_Image_x71cgex71cgex71c (1).png#0,1
+- Gemini_Generated_Image_x71cgex71cgex71c (1).png#1,0
+- Gemini_Generated_Image_x71cgex71cgex71c (1).png#1,2
+- Gemini_Generated_Image_x71cgex71cgex71c (1).png#1,3
+- Gemini_Generated_Image_x71cgex71cgex71c.png#0,0
+- Gemini_Generated_Image_x71cgex71cgex71c.png#0,1
+- Gemini_Generated_Image_x71cgex71cgex71c.png#1,0
+- Gemini_Generated_Image_x71cgex71cgex71c.png#1,2
+- Gemini_Generated_Image_x71cgex71cgex71c.png#1,3
+- Gemini_Generated_Image_xd7urexd7urexd7u.png#0,1
+- Gemini_Generated_Image_xwyeemxwyeemxwye.png#1,3
+- Gemini_Generated_Image_ze966oze966oze96.png#0,3
+
+## 이름 저신뢰
+- Gemini_Generated_Image_124k4a124k4a124k.png#0,1 | OCR='와어' | score=0.40 | tokens=['와어']
+- Gemini_Generated_Image_124k4a124k4a124k.png#0,3 | OCR='와유' | score=0.50 | tokens=['와유', '와유']
+- Gemini_Generated_Image_124k4a124k4a124k.png#1,0 | OCR='오오' | score=0.50 | tokens=['오오', '와유', '와유']
+- Gemini_Generated_Image_124k4a124k4a124k.png#1,1 | OCR='구애' | score=0.50 | tokens=['구애', '니노']
+- Gemini_Generated_Image_124k4a124k4a124k.png#1,2 | OCR='느리' | score=0.50 | tokens=['느리', '소호']
+- Gemini_Generated_Image_124k4a124k4a124k.png#1,3 | OCR='왕차' | score=0.50 | tokens=['왕차', '왕차', '왕차']
+- Gemini_Generated_Image_53gj5v53gj5v53gj.png#0,0 | OCR='구구' | score=0.50 | tokens=['구구']
+- Gemini_Generated_Image_53gj5v53gj5v53gj.png#0,2 | OCR='조오' | score=0.50 | tokens=['조오']
+- Gemini_Generated_Image_53gj5v53gj5v53gj.png#1,3 | OCR='시차' | score=0.50 | tokens=['시차', '시차']
+- Gemini_Generated_Image_8wt9tk8wt9tk8wt9.png#0,2 | OCR='자고' | score=0.50 | tokens=['자고']
+- Gemini_Generated_Image_8wt9tk8wt9tk8wt9.png#1,1 | OCR='' | score=0.00 | tokens=['다즈']
+- Gemini_Generated_Image_8wt9tk8wt9tk8wt9.png#1,3 | OCR='자회' | score=0.50 | tokens=['자회', '자회']
+- Gemini_Generated_Image_boldbzboldbzbold.png#0,0 | OCR='소범' | score=0.50 | tokens=['소범', '소범']
+- Gemini_Generated_Image_boldbzboldbzbold.png#0,2 | OCR='가성' | score=0.50 | tokens=['가성', '즈사']
+- Gemini_Generated_Image_boldbzboldbzbold.png#1,1 | OCR='조시' | score=0.50 | tokens=['조시']
+- Gemini_Generated_Image_do2smrdo2smrdo2s.png#0,0 | OCR='어아' | score=0.50 | tokens=['니그', '어아', '어아']
+- Gemini_Generated_Image_e3yvore3yvore3yv.png#0,2 | OCR='자스' | score=0.50 | tokens=['자스']
+- Gemini_Generated_Image_e3yvore3yvore3yv.png#0,3 | OCR='자야' | score=0.50 | tokens=['자야']
+- Gemini_Generated_Image_e3yvore3yvore3yv.png#1,0 | OCR='자여' | score=0.50 | tokens=['자여', '자여']
+- Gemini_Generated_Image_e3yvore3yvore3yv.png#1,2 | OCR='자오' | score=0.50 | tokens=['자오', '자오', '자오']
+- Gemini_Generated_Image_e3yvore3yvore3yv.png#1,3 | OCR='장와' | score=0.50 | tokens=['장와', '장와', '우직', '잔와']
+- Gemini_Generated_Image_eq7jpseq7jpseq7j.png#0,0 | OCR='조토' | score=0.50 | tokens=['조토']
+- Gemini_Generated_Image_eq7jpseq7jpseq7j.png#0,1 | OCR='디오' | score=0.50 | tokens=['스토', '디오']
+- Gemini_Generated_Image_eq7jpseq7jpseq7j.png#0,2 | OCR='조오' | score=0.50 | tokens=['조오']
+- Gemini_Generated_Image_eq7jpseq7jpseq7j.png#1,1 | OCR='악응그' | score=0.40 | tokens=['악응그']
+- Gemini_Generated_Image_f7pi4vf7pi4vf7pi.png#0,1 | OCR='화즈' | score=0.50 | tokens=['화즈', '환조']
+- Gemini_Generated_Image_f7pi4vf7pi4vf7pi.png#1,0 | OCR='호서' | score=0.50 | tokens=['호서']
+- Gemini_Generated_Image_f7pi4vf7pi4vf7pi.png#1,1 | OCR='구제' | score=0.50 | tokens=['구제', '호성']
+- Gemini_Generated_Image_f7pi4vf7pi4vf7pi.png#1,3 | OCR='서고' | score=0.50 | tokens=['서고', '끄워지']
+- Gemini_Generated_Image_iiiyvkiiiyvkiiiy.png#0,3 | OCR='오기' | score=0.50 | tokens=['오기', '자고']
+- Gemini_Generated_Image_iiiyvkiiiyvkiiiy.png#1,3 | OCR='스보' | score=0.50 | tokens=['스보', '호기', '이오']
+- Gemini_Generated_Image_k5f6jik5f6jik5f6.png#1,0 | OCR='조서' | score=0.50 | tokens=['조서', '초서']
+- Gemini_Generated_Image_k5f6jik5f6jik5f6.png#1,3 | OCR='네지' | score=0.50 | tokens=['네지', '스토']
+- Gemini_Generated_Image_ktzfowktzfowktzf.png#0,2 | OCR='이어' | score=0.50 | tokens=['이어']
+- Gemini_Generated_Image_lneofglneofglneo.png#1,3 | OCR='서보' | score=0.50 | tokens=['서보', '듀쩌오모이', '으아']
+- Gemini_Generated_Image_lzujbplzujbplzuj.png#0,0 | OCR='' | score=0.00 | tokens=['으버', '으버']
+- Gemini_Generated_Image_nyj3donyj3donyj3.png#0,2 | OCR='' | score=0.00 | tokens=['으벼']
+- Gemini_Generated_Image_nyj3donyj3donyj3.png#0,3 | OCR='사시' | score=0.50 | tokens=['사시', '으보', '사시', '으보']
+- Gemini_Generated_Image_nyj3donyj3donyj3.png#1,3 | OCR='오셔' | score=0.50 | tokens=['오셔']
+- Gemini_Generated_Image_ommiz1ommiz1ommi.png#1,2 | OCR='지브' | score=0.50 | tokens=['지브', '지보']
+- Gemini_Generated_Image_pj5lbipj5lbipj5l.png#0,0 | OCR='사초' | score=0.50 | tokens=['사초', '시어']
+- Gemini_Generated_Image_pj5lbipj5lbipj5l.png#0,2 | OCR='어유' | score=0.50 | tokens=['어유', '어유', '어유']
+- Gemini_Generated_Image_pj5lbipj5lbipj5l.png#1,0 | OCR='히저' | score=0.50 | tokens=['히저', '기저']
+- Gemini_Generated_Image_pj5lbipj5lbipj5l.png#1,1 | OCR='시정' | score=0.50 | tokens=['시정']
+- Gemini_Generated_Image_pr4dflpr4dflpr4d.png#0,2 | OCR='장흐' | score=0.50 | tokens=['장흐', '구개']
+- Gemini_Generated_Image_q0n46wq0n46wq0n4.png#0,1 | OCR='조으' | score=0.50 | tokens=['조으', '오기도']
+- Gemini_Generated_Image_q0n46wq0n46wq0n4.png#0,2 | OCR='' | score=0.00 | tokens=['슬러']
+- Gemini_Generated_Image_q0n46wq0n46wq0n4.png#1,1 | OCR='수령' | score=0.67 | tokens=['수령', '은비']
+- Gemini_Generated_Image_q0n46wq0n46wq0n4.png#1,3 | OCR='번기' | score=0.50 | tokens=['번기']
+- Gemini_Generated_Image_qfhdo8qfhdo8qfhd.png#1,0 | OCR='와호' | score=0.50 | tokens=['와호']
+- Gemini_Generated_Image_qfhdo8qfhdo8qfhd.png#1,1 | OCR='이리' | score=0.50 | tokens=['이리']
+- Gemini_Generated_Image_srs4ibsrs4ibsrs4.png#0,0 | OCR='시단' | score=0.50 | tokens=['시단']
+- Gemini_Generated_Image_srs4ibsrs4ibsrs4.png#0,1 | OCR='시평' | score=0.50 | tokens=['시평', '시평', '시평']
+- Gemini_Generated_Image_srs4ibsrs4ibsrs4.png#0,2 | OCR='구기' | score=0.50 | tokens=['구기', '오니']
+- Gemini_Generated_Image_srs4ibsrs4ibsrs4.png#1,2 | OCR='아지' | score=0.50 | tokens=['아지']
+- Gemini_Generated_Image_v1t3dyv1t3dyv1t3.png#1,0 | OCR='비서' | score=0.50 | tokens=['비서']
+- Gemini_Generated_Image_v1t3dyv1t3dyv1t3.png#1,2 | OCR='화보' | score=0.50 | tokens=['화보', '화보', '러시']
+- Gemini_Generated_Image_v1t3dyv1t3dyv1t3.png#1,3 | OCR='시호' | score=0.50 | tokens=['시호', '하스']
+- Gemini_Generated_Image_vf0y4jvf0y4jvf0y.png#0,0 | OCR='' | score=0.00 | tokens=['흐혀']
+- Gemini_Generated_Image_vf0y4jvf0y4jvf0y.png#0,1 | OCR='하우혜' | score=0.67 | tokens=['하우혜', '하우혜']
+- Gemini_Generated_Image_vzjyksvzjyksvzjy.png#0,0 | OCR='아느' | score=0.50 | tokens=['아느']
+- Gemini_Generated_Image_vzjyksvzjyksvzjy.png#0,1 | OCR='마즈' | score=0.50 | tokens=['마즈']
+- Gemini_Generated_Image_vzjyksvzjyksvzjy.png#1,2 | OCR='으여' | score=0.50 | tokens=['으여', '으여']
+- Gemini_Generated_Image_w02md6w02md6w02m.png#0,0 | OCR='야소' | score=0.50 | tokens=['야소']
+- Gemini_Generated_Image_w02md6w02md6w02m.png#0,1 | OCR='' | score=0.00 | tokens=['야스']
+- Gemini_Generated_Image_w02md6w02md6w02m.png#1,0 | OCR='우이' | score=0.50 | tokens=['우이']
+- Gemini_Generated_Image_w02md6w02md6w02m.png#1,2 | OCR='야지' | score=0.50 | tokens=['야지']
+- Gemini_Generated_Image_x71cgex71cgex71c (1).png#0,3 | OCR='노트' | score=0.50 | tokens=['느는', '노트', '연핸', '연해']
+- Gemini_Generated_Image_x71cgex71cgex71c (1).png#1,1 | OCR='전자' | score=0.50 | tokens=['전자', '보틀']
+- Gemini_Generated_Image_x71cgex71cgex71c.png#0,3 | OCR='노트' | score=0.50 | tokens=['느는', '노트', '연핸', '연해']
+- Gemini_Generated_Image_x71cgex71cgex71c.png#1,1 | OCR='전자' | score=0.50 | tokens=['전자', '보틀']
+- Gemini_Generated_Image_xd7urexd7urexd7u.png#0,0 | OCR='즈화' | score=0.50 | tokens=['즈화']
+- Gemini_Generated_Image_xi51p1xi51p1xi51.png#0,3 | OCR='자이' | score=0.50 | tokens=['자이', '자이', '자이']
+- Gemini_Generated_Image_xi51p1xi51p1xi51.png#1,0 | OCR='장인' | score=0.50 | tokens=['장인']
+- Gemini_Generated_Image_xi51p1xi51p1xi51.png#1,2 | OCR='오노' | score=0.50 | tokens=['오노', '고고', '자즈', '자스']
+- Gemini_Generated_Image_xi51p1xi51p1xi51.png#1,3 | OCR='자지' | score=0.50 | tokens=['자지']
+- Gemini_Generated_Image_xwyeemxwyeemxwye.png#1,0 | OCR='공동' | score=0.50 | tokens=['공동']
+- Gemini_Generated_Image_ze966oze966oze96.png#0,1 | OCR='자므' | score=0.50 | tokens=['자므', '자모']
+- Gemini_Generated_Image_ze966oze966oze96.png#0,2 | OCR='장병' | score=0.50 | tokens=['장병', '자벼', '이어온']
+- Gemini_Generated_Image_ze966oze966oze96.png#1,1 | OCR='자우' | score=0.50 | tokens=['자우']
+- Gemini_Generated_Image_ze966oze966oze96.png#1,2 | OCR='주주' | score=0.50 | tokens=['주주', '후에']
+
+## 저장 성공 샘플 (상위 40개)
+- Gemini_Generated_Image_124k4a124k4a124k.png#0,0 -> wang_ssang_549.png (왕쌍, score=1.00, OCR='왕쌍')
+- Gemini_Generated_Image_124k4a124k4a124k.png#0,2 -> wang_wi_171.png (왕위, score=1.00, OCR='왕위')
+- Gemini_Generated_Image_4y6v144y6v144y6v.png#0,0 -> wi_sok_185.png (위속, score=1.00, OCR='위속')
+- Gemini_Generated_Image_4y6v144y6v144y6v.png#0,1 -> wei_yan_78.png (위연, score=1.00, OCR='위연')
+- Gemini_Generated_Image_4y6v144y6v144y6v.png#0,2 -> wi_yu_2449.png (위유, score=1.00, OCR='위유')
+- Gemini_Generated_Image_4y6v144y6v144y6v.png#0,3 -> wi_pung_2452.png (위풍, score=1.00, OCR='위풍')
+- Gemini_Generated_Image_4y6v144y6v144y6v.png#1,0 -> yu_goe_2453.png (유괴, score=1.00, OCR='유괴')
+- Gemini_Generated_Image_4y6v144y6v144y6v.png#1,1 -> yu_gi_748.png (유기, score=1.00, OCR='유기')
+- Gemini_Generated_Image_4y6v144y6v144y6v.png#1,2 -> liu_dai_173.png (유대, score=1.00, OCR='유대')
+- Gemini_Generated_Image_53gj5v53gj5v53gj.png#0,1 -> xun_yu_42.png (순욱, score=1.00, OCR='순욱')
+- Gemini_Generated_Image_53gj5v53gj5v53gj.png#0,3 -> sun_ui_2362.png (순의, score=1.00, OCR='순의')
+- Gemini_Generated_Image_53gj5v53gj5v53gj.png#1,1 -> sin_bi_66.png (신비, score=1.00, OCR='신비')
+- Gemini_Generated_Image_53gj5v53gj5v53gj.png#1,2 -> sin_ui_2367.png (신의, score=1.00, OCR='신의')
+- Gemini_Generated_Image_6gl2bu6gl2bu6gl2.png#0,0 -> yu_hwa_2467.png (유화, score=1.00, OCR='유화')
+- Gemini_Generated_Image_6gl2bu6gl2bu6gl2.png#0,2 -> yuk_gae_2469.png (육개, score=1.00, OCR='육개')
+- Gemini_Generated_Image_6gl2bu6gl2bu6gl2.png#1,1 -> yuk_hang_551.png (육항, score=1.00, OCR='육항')
+- Gemini_Generated_Image_6gl2bu6gl2bu6gl2.png#1,2 -> yun_daemok_2473.png (윤대목, score=1.00, OCR='윤대목')
+- Gemini_Generated_Image_8wt9tk8wt9tk8wt9.png#0,0 -> jang_chunhwa_932.png (장춘화, score=0.80, OCR='장춘')
+- Gemini_Generated_Image_8wt9tk8wt9tk8wt9.png#0,1 -> jang_teuk_2519.png (장특, score=1.00, OCR='장특')
+- Gemini_Generated_Image_8wt9tk8wt9tk8wt9.png#1,0 -> zhang_he_38.png (장합, score=1.00, OCR='장합')
+- Gemini_Generated_Image_8wt9tk8wt9tk8wt9.png#1,2 -> jang_hwa_2523.png (장화, score=1.00, OCR='장화')
+- Gemini_Generated_Image_bh5851bh5851bh58.png#0,1 -> xiahou_dun_31.png (하후돈, score=1.00, OCR='하후돈')
+- Gemini_Generated_Image_bh5851bh5851bh58.png#0,2 -> hahu_mu_736.png (하후무, score=1.00, OCR='하후무')
+- Gemini_Generated_Image_bh5851bh5851bh58.png#0,3 -> hahu_sang_512.png (하후상, score=1.00, OCR='하후상')
+- Gemini_Generated_Image_bh5851bh5851bh58.png#1,0 -> xiahou_yuan_32.png (하후연, score=1.00, OCR='하후연')
+- Gemini_Generated_Image_bh5851bh5851bh58.png#1,1 -> ho_wi_807.png (호위, score=0.80, OCR='하호위')
+- Gemini_Generated_Image_bh5851bh5851bh58.png#1,2 -> hahu_eun_2631.png (하후은, score=0.80, OCR='후은')
+- Gemini_Generated_Image_bh5851bh5851bh58.png#1,3 -> hahu_pae_739.png (하후패, score=1.00, OCR='하후패')
+- Gemini_Generated_Image_boldbzboldbzbold.png#0,1 -> cao_pi_23.png (조비, score=1.00, OCR='조비')
+- Gemini_Generated_Image_boldbzboldbzbold.png#0,3 -> jo_seong_2551.png (조성, score=1.00, OCR='조성')
+- Gemini_Generated_Image_boldbzboldbzbold.png#1,2 -> jo_a_2552.png (조아, score=1.00, OCR='조아')
+- Gemini_Generated_Image_do2smrdo2smrdo2s.png#0,1 -> eom_yeo_2396.png (엄여, score=1.00, OCR='엄여')
+- Gemini_Generated_Image_do2smrdo2smrdo2s.png#1,0 -> yeo_gae_3016.png (여개, score=1.00, OCR='여개')
+- Gemini_Generated_Image_do2smrdo2smrdo2s.png#1,1 -> yeo_geo_2397.png (여거, score=1.00, OCR='여거')
+- Gemini_Generated_Image_do2smrdo2smrdo2s.png#1,3 -> yeo_gwang_2401.png (여광, score=1.00, OCR='여광')
+- Gemini_Generated_Image_e3yvore3yvore3yv.png#0,0 -> jang_song_2507.png (장송, score=1.00, OCR='장송')
+- Gemini_Generated_Image_e3yvore3yvore3yv.png#0,1 -> zhang_xiu_161.png (장수, score=1.00, OCR='장수')
+- Gemini_Generated_Image_e3yvore3yvore3yv.png#1,1 -> jang_yeong_263.png (장영, score=1.00, OCR='장영')
+- Gemini_Generated_Image_eq7jpseq7jpseq7j.png#0,3 -> jo_hwan_735.png (조환, score=1.00, OCR='조환')
+- Gemini_Generated_Image_eq7jpseq7jpseq7j.png#1,2 -> jo_hui_2563.png (조희, score=1.00, OCR='조희')
