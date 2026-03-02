@@ -141,12 +141,14 @@ h1 {
 
 .hero-shot {
   margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hero-shot img {
-  width: min(100%, 370px);
+  width: min(100%, 760px);
   display: block;
-  margin-left: auto;
   border-radius: 22px;
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
@@ -222,8 +224,8 @@ h1 {
   }
 
   .hero-shot img {
-    margin: 0;
-    width: min(100%, 420px);
+    width: 100%;
+    max-width: 760px;
   }
 
   .features {
